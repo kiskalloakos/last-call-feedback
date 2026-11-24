@@ -64,7 +64,7 @@ Hiba után a főmenüben válaszd a **Diagnosztika mentése** gombot. A játék 
 
 Ez fejlesztés alatt álló teszt, hibák és kiegyensúlyozatlanság előfordulhatnak. A botok gyakorlóellenfelek, nem kész, emberi módon gondolkodó ellenfelek. A házigazda kilépésekor a meccs megszakadhat; nincs házigazdaváltás. Rövid kapcsolatvesztéskor ugyanabban a futó kliensben 20 másodperces automatikus visszacsatlakozás van; az alkalmazás újraindítása utáni visszatérés nem támogatott.
 
-Az online kapcsolat és a hangchat külső Unity-szolgáltatásokat használ, amelyek elérhetősége és ingyenes kapacitása korlátozott. A LAN-játékhoz nem kell Relay, a hangchathez internet szükséges. A valós, különböző hálózatokon futó Windows/macOS vegyes meccsekről különösen várjuk a visszajelzést. A minimum hardverigény még nincs megállapítva.
+Az online kapcsolat és a hangchat külső Unity-szolgáltatásokat használ, amelyek elérhetősége és ingyenes kapacitása korlátozott. A LAN-játékhoz nem kell Relay, a hangchathez internet szükséges. A valós, különböző hálózatokon futó Windows/macOS vegyes meccsekről különösen várjuk a visszajelzést. A minimum hardverigény még nincs megállapítva. Ez a Windows-csomag keresztfordítással készült; a konkrét kiadás Windows gépen történő futtatása még ellenőrzésre vár.
 
 ## Felhasználás
 
