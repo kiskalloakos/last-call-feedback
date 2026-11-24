@@ -1,0 +1,36 @@
+name: Vélemény a játékról
+description: Mi tetszett, mi volt zavaros, és játszanál-e még?
+title: "[Vélemény] "
+body:
+  - type: markdown
+    attributes:
+      value: "Köszönjük, hogy teszteltél! Ez nyilvános visszajelzés."
+  - type: input
+    id: context
+    attributes:
+      label: Milyen módban és hányan játszottatok?
+      placeholder: Például 4 barát online, vagy egyedül 4 bottal.
+  - type: textarea
+    id: experience
+    attributes:
+      label: Mi tetszett a legjobban?
+    validations:
+      required: true
+  - type: textarea
+    id: confusing
+    attributes:
+      label: Mi volt zavaros, lassú vagy frusztráló?
+  - type: dropdown
+    id: replay
+    attributes:
+      label: Játszanál még vele?
+      options:
+        - Igen
+        - Talán, néhány változtatás után
+        - Nem
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Ha egy dolgot változtathatnál meg, mi lenne az?

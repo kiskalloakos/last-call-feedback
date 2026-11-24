@@ -1,0 +1,52 @@
+name: Hibajelentés
+description: Mondd el, mi romlott el a magyar közösségi tesztben.
+title: "[Hiba] "
+body:
+  - type: markdown
+    attributes:
+      value: "Köszönjük a segítséget! Ez nyilvános jelentés. Ne adj meg személyes adatot vagy szobakódot."
+  - type: input
+    id: version
+    attributes:
+      label: Játékverzió
+      placeholder: 0.3.0-feedback.1
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Rendszer
+      options:
+        - Windows
+        - macOS Intel
+        - macOS Apple Silicon
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Játékmód
+      options:
+        - Oktatás
+        - Botok elleni játék
+        - Helyi hálózat (LAN)
+        - Online szoba
+        - Menü / indítás
+    validations:
+      required: true
+  - type: input
+    id: players
+    attributes:
+      label: Hány ember és hány bot volt? Házigazda vagy vendég voltál?
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Mi történt, és hogyan lehet előidézni?
+      description: Mit csináltál előtte? Mi lett volna a várt eredmény?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Diagnosztika / képernyőkép (nem kötelező)
+      description: A főmenüben válaszd a Diagnosztika mentése gombot. Nézd át a fájlt, majd húzd ide. A csatolmány nyilvános lesz.
